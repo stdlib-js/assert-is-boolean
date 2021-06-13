@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-boolean",
-  "version": "0.0.4",
+  "version": "0.0.0",
   "description": "Test if a value is a boolean.",
   "license": "Apache-2.0",
   "author": {
@@ -22,7 +22,11 @@
     "test": "./test"
   },
   "types": "./docs/types",
-  "scripts": {},
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples"
+  },
   "homepage": "https://github.com/stdlib-js/stdlib",
   "repository": {
     "type": "git",
@@ -40,7 +44,9 @@
     "@stdlib/assert-has-symbol-support": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "proxyquire": "^2.0.0",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby"
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-spec": "5.x.x"
   },
   "engines": {
     "node": ">=0.10.0",
@@ -77,5 +83,9 @@
     "check",
     "primitive",
     "object"
-  ]
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
 }
