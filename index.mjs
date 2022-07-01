@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import t from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-tostringtag-support@esm/index.mjs";import n from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@esm/index.mjs";var r=function(t){return"boolean"==typeof t},o=Boolean.prototype.toString;var s=n,i=function(t){try{return o.call(t),!0}catch(t){return!1}},a=e();var l=function(t){return"object"==typeof t&&(t instanceof Boolean||(a?i(t):"[object Boolean]"===s(t)))},c=r,d=l;var p=t,m=function(t){return c(t)||d(t)},u=r,f=l;p(m,"isPrimitive",u),p(m,"isObject",f);var j=m;export{j as default,f as isObject,u as isPrimitive};
-//# sourceMappingURL=index.mjs.map
