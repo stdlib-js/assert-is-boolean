@@ -57,6 +57,8 @@ Tests if a `value` is a `boolean`.
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
+var Boolean = require( '@stdlib/boolean-ctor' );
+
 var bool = isBoolean( false );
 // returns true
 
@@ -77,6 +79,8 @@ Tests if a `value` is a primitive `boolean`.
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
+var Boolean = require( '@stdlib/boolean-ctor' );
+
 var bool = isBoolean.isPrimitive( true );
 // returns true
 
@@ -94,6 +98,8 @@ Tests if a `value` is a `Boolean` object.
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
+var Boolean = require( '@stdlib/boolean-ctor' );
+
 var bool = isBoolean.isObject( true );
 // returns false
 
@@ -114,6 +120,7 @@ bool = isBoolean.isObject( new Boolean( false ) );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
+var Boolean = require( '@stdlib/boolean-ctor' );
 var isBoolean = require( '@stdlib/assert-is-boolean' );
 
 var bool = isBoolean( false );
