@@ -42,13 +42,13 @@ limitations under the License.
 ### Usage
 
 ```javascript
-import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@esm/index.mjs';
+import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@esm/index.mjs';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@v0.1.0-esm/index.mjs';
 ```
 
 #### isBoolean( value )
@@ -127,7 +127,7 @@ bool = isBoolean.isObject( new Boolean( false ) );
 <script type="module">
 
 import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@esm/index.mjs';
-import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@esm/index.mjs';
+import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@v0.1.0-esm/index.mjs';
 
 var bool = isBoolean( false );
 // returns true
