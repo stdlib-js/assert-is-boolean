@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isBoolean = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-boolean/tags). For example,
+
+```javascript
 isBoolean = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isBoolean = require( 'path/to/vendor/umd/assert-is-boolean/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -143,7 +148,7 @@ bool = isBoolean.isObject( new Boolean( false ) );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
