@@ -22,7 +22,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var Boolean = require( '@stdlib/boolean-ctor' );
 var pkg = require( './../package.json' ).name;
 var isBoolean = require( './../lib' );
