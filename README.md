@@ -42,13 +42,18 @@ limitations under the License.
 ### Usage
 
 ```javascript
+import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-boolean/tags). For example,
+
+```javascript
 import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@v0.2.2-deno/mod.js';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@deno/mod.js';
 ```
 
 #### isBoolean( value )
@@ -122,7 +127,7 @@ bool = isBoolean.isObject( new Boolean( false ) );
 
 ```javascript
 import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@deno/mod.js';
-import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@v0.2.2-deno/mod.js';
+import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@deno/mod.js';
 
 var bool = isBoolean( false );
 // returns true
