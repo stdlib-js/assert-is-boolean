@@ -57,7 +57,7 @@ To view installation and usage instructions specific to each branch build, be su
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```javascript
 var isBoolean = require( '@stdlib/assert-is-boolean' );
@@ -126,7 +126,7 @@ bool = isBoolean.isObject( new Boolean( false ) );
 
 <section class="examples">
 
-### Examples
+## Examples
 
 <!-- eslint-disable no-new-wrappers -->
 

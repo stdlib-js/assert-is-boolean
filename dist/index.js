@@ -1,13 +1,13 @@
-"use strict";var t=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var i=t(function(L,n){
-function b(r){return typeof r=="boolean"}n.exports=b
-});var u=t(function(R,a){
-var x=Boolean.prototype.toString;a.exports=x
-});var v=t(function(k,c){
-var B=u();function g(r){try{return B.call(r),!0}catch(e){return!1}}c.exports=g
-});var s=t(function(w,f){
-var j=require('@stdlib/assert-has-tostringtag-support/dist'),y=require('@stdlib/utils-native-class/dist'),m=require('@stdlib/boolean-ctor/dist'),O=v(),S=j();function P(r){return typeof r=="object"?r instanceof m?!0:S?O(r):y(r)==="[object Boolean]":!1}f.exports=P
-});var p=t(function(z,q){
-var h=i(),T=s();function d(r){return h(r)||T(r)}q.exports=d
-});var l=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),o=p(),C=i(),F=s();l(o,"isPrimitive",C);l(o,"isObject",F);module.exports=o;
+"use strict";var t=function(r,e){return function(){try{return e||r((e={exports:{}}).exports,e),e.exports}catch(b){throw (e=0, b)}};};var i=t(function(R,n){
+function x(r){return typeof r=="boolean"}n.exports=x
+});var u=t(function(k,a){
+var B=Boolean.prototype.toString;a.exports=B
+});var v=t(function(w,c){
+var g=u();function j(r){try{return g.call(r),!0}catch(e){return!1}}c.exports=j
+});var s=t(function(z,f){
+var y=require('@stdlib/assert-has-tostringtag-support/dist'),m=require('@stdlib/utils-native-class/dist'),O=require('@stdlib/boolean-ctor/dist'),S=v(),P=y();function h(r){return typeof r=="object"?r instanceof O?!0:P?S(r):m(r)==="[object Boolean]":!1}f.exports=h
+});var p=t(function(A,q){
+var T=i(),d=s();function C(r){return T(r)||d(r)}q.exports=C
+});var l=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),o=p(),F=i(),G=s();l(o,"isPrimitive",F);l(o,"isObject",G);module.exports=o;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
